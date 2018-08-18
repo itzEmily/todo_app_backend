@@ -10,3 +10,12 @@ h1 {
 #todo_num {
     color: #B0ADAC;
 }
+
+#pomodoro-estimate {
+    font-weight: bold;
+    color: #cccccc;
+    background-color: #E4FFF8;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+}
