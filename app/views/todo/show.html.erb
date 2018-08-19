@@ -6,17 +6,17 @@
             <%=@t.description%>
         </strong>
     </h2>
+    <p>
+        <span id="pomodoro-estimate"><%=@t.pomodoro_estimate%> pomoderos</span>
+    </p>
     <div style="display: inline-block; text-align: left;">
         <p>
             <input type="checkbox">
             make it make sense and have it ready
         </p>
-        <p>
-            <span id="pomodoro-estimate"><%=@t.pomodoro_estimate%> pomoderos</span>
-        </p>
     </div>
     </br>
-    <button><a href="/todos">go back</a></button>
+    <button><a href="/todos">back</a></button>
     <button><a href="">edit</a></button>
     <button><a href="">delete</a></button>
 </div>

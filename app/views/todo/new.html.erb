@@ -1,16 +1,16 @@
 <div style="text-align: center">
-    <h1 id="todotitle">New Todo</h1>
+    <h1 class="header">New Todo</h1>
     <form action="/todo/create">
-        <div style="display: inline-block; text-align: left;">
+        <div style="display: inline-block; text-align: left">
             <p>Text</p>
-            <input type="text" id="new-todo-description" type="text" placeholder="enter a description">
+            <input type="text" name="description" id="new-todo-description" type="text">
             <p>Pomodoro Estimate</p>
-            <input type="number" id="new-pomodoro-estimate" type="number" placeholder="pomodoro estimate">
+            <input type="number" name="pomodoro_estimate" id="new-pomodoro-estimate" type="number">
         </div>
         <br></br>
-            <button id="back-button">
-                <a href="/todos">back</a>
+            <button id="back-button" style="margin-right: 10px">
+                <a href="/todos" style="text-decoration: none; color: #ffffff">back</a>
             </button>
-            <button id="add-to-do-button">submit</button>
+            <button id="add-to-do-button" style="margin-left: 10px">submit</button>
     </form>
 </div>

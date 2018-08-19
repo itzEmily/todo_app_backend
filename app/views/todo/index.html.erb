@@ -1,83 +1,31 @@
 <div style="text-align: center">
-        <h1 id="listtitle">to-do list</h1>
-            <table>
-                <tr>
-                    <th id="centered">To-Do(s)</th>
-                    <th id="centered">Promodoro(s)</th>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/1">make four boxes</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">1 pomodoro</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/2">make new tab for input place</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">1 pomodoro</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/3">make what i did for my input wireframe</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">5 pomodoros</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/4">go back and create the check list</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">3 pomodoros</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/5">create the calendar</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">5 pomodoros</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/6">create the schedule planner</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">6 pomodoros</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/7">create the timer</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">3 pomodoros</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                        <a href="todo/show/8">make screen sizer for each box of items</a>
-                    </td>
-                    <td>
-                        <span class="pomodoro-estimate">3 pomodoros</span>
-                    </td>
-                </tr>
-            </table>
-            
-            <a href="/todo/new">add new todo</a>
+    <h1>To-Do List</h1>
+    <div style="display: inline-block; text-align: left;">
+        <table>
+            <tr>
+                <th id="centered">To-Do(s)</th>
+                <th id="centered">Promodoro(s)</th>
+            </tr>
+            <%@todos.each do |todo|%>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                    <a href="todo/show/1">
+                        <%=todo.description%>
+                    </a>
+                </td>
+                <td>
+                    <span class="pomodoro-estimate">
+                        <%=todo.pomodoro_estimate%> pomodoro
+                    </span>
+                </td>
+            </tr>
+            <% end %>
+        </table>
+    </div>
+    <p>
+        <button id="new-todo-button">
+            <a href="/todo/new" style="text-decoration: none; color: #ffffff">add new todo</a>
+        </button>
+    </p>
 </div>

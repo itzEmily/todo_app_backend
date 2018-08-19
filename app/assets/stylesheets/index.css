@@ -1,8 +1,4 @@
-th {
-    font-family: Monospace;
-}
-
-p {
+body {
     font-family: Monospace;
 }
 
@@ -22,24 +18,13 @@ p {
     border: none;
     font-size: 25px;
     font-family: monospace;
-    margin-left: 50px;
-}
-
-th {
-    text-align: left;
 }
 
 #centered {
     text-align: center;
 }
 
-#listtitle {
-    color: #b3b3ff;
-    font-family: Georgia;
-}
-
-#todotitle {
-    margin-left: 18px;
+.header {
     color: #b3b3ff;
     font-family: Georgia;
 }
@@ -51,11 +36,19 @@ th {
 }
 
 #back-button {
-    background-color: #4FF613F;
+    background-color: #FF613F;
     color: #ffffff;
     cursor: pointer;
     border: none;
     font-size: 25px;
     font-family: monospace;
-    margin-left: 50px;
+}
+
+#new-todo-button {
+    background-color: #A9A9A9;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    font-family: monospace;
 }
