@@ -34,7 +34,6 @@ th {
 }
 
 #listtitle {
-    margin-left: 120px;
     color: #b3b3ff;
     font-family: Georgia;
 }
@@ -49,4 +48,14 @@ th {
     position: fixed;
     top: -10px;
     right: 30px;
+}
+
+#back-button {
+    background-color: #4FF613F;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 50px;
 }
