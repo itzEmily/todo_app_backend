@@ -5825,3 +5825,2045 @@ Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by TodoController#new as HTML
   Rendered todo/new.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:04:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/1" for 50.201.96.158 at 2018-08-19 20:04:17 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Todo with 'id'=1):
+  app/controllers/todo_controller.rb:6:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:06:49 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 20:06:51 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:07:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/8" for 50.201.96.158 at 2018-08-19 20:07:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:07:09 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.7ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/todo/show/4" for 50.201.96.158 at 2018-08-19 20:07:15 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:07:33 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 20:07:35 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:07:47 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 20:07:57 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 20:09:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTodo Load (0.6ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/show.self-a0447d7fa32a7826234e15b7f20b95d5fc6a80ac1749403fee3bef31eafd0d7e.css?body=1" for 50.201.96.158 at 2018-08-19 20:09:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:09:36 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/5" for 50.201.96.158 at 2018-08-19 20:09:37 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:09:55 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/9" for 50.201.96.158 at 2018-08-19 20:10:03 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 9]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:10:05 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:16:10 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 36ms (Views: 30.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/show.self-25e492372220d90e7029e2afe6d9f8aa0f2d5e3e4a17d222e985d9ad7758ec63.css?body=1" for 50.201.96.158 at 2018-08-19 20:16:10 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:16:17 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:16:19 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/7" for 50.201.96.158 at 2018-08-19 20:16:20 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:16:24 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 20:16:46 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 20:26:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 19.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:26:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 20:26:53 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/show/33" for 50.201.96.158 at 2018-08-19 20:26:58 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 33]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/destroy/33" for 50.201.96.158 at 2018-08-19 20:27:00 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 33]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 33]]
+  [1m[35m (3.2ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 8ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:27:00 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:36:45 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/11" for 50.201.96.158 at 2018-08-19 20:36:58 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 11]]
+  [1m[35m (3.0ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:36:58 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/12" for 50.201.96.158 at 2018-08-19 20:36:59 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 12]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 12]]
+  [1m[36m (3.8ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 8ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:36:59 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/13" for 50.201.96.158 at 2018-08-19 20:37:01 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 13]]
+  [1m[35m (2.9ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:01 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/14" for 50.201.96.158 at 2018-08-19 20:37:02 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 14]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 6ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:02 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/destroy/24" for 50.201.96.158 at 2018-08-19 20:37:04 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 24]]
+  [1m[35m (3.1ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:04 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/32" for 50.201.96.158 at 2018-08-19 20:37:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"32"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 32]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 32]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/15" for 50.201.96.158 at 2018-08-19 20:37:10 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 15]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 15]]
+  [1m[35m (5.3ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 9ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:10 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/16" for 50.201.96.158 at 2018-08-19 20:37:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 16]]
+  [1m[36m (2.9ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/17" for 50.201.96.158 at 2018-08-19 20:37:12 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 17]]
+  [1m[35m (2.5ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 6ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:12 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/18" for 50.201.96.158 at 2018-08-19 20:37:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 18]]
+  [1m[36m (3.1ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/19" for 50.201.96.158 at 2018-08-19 20:37:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 19]]
+  [1m[35m (2.7ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/20" for 50.201.96.158 at 2018-08-19 20:37:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 20]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/21" for 50.201.96.158 at 2018-08-19 20:37:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 21]]
+  [1m[35m (2.9ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/22" for 50.201.96.158 at 2018-08-19 20:37:15 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"22"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 22]]
+  [1m[36m (2.9ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 6ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:15 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/23" for 50.201.96.158 at 2018-08-19 20:37:15 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 23]]
+  [1m[35m (2.9ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:15 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/25" for 50.201.96.158 at 2018-08-19 20:37:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 25]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 25]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 6ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/destroy/26" for 50.201.96.158 at 2018-08-19 20:37:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 26]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 26]]
+  [1m[35m (2.8ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/27" for 50.201.96.158 at 2018-08-19 20:37:17 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 27]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 27]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:17 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/28" for 50.201.96.158 at 2018-08-19 20:37:17 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 28]]
+  [1m[35m (2.8ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:17 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/29" for 50.201.96.158 at 2018-08-19 20:37:18 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 29]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "todos" WHERE "todos"."id" = $1  [["id", 29]]
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 6ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:18 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/destroy/30" for 50.201.96.158 at 2018-08-19 20:37:18 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 30]]
+  [1m[35m (2.8ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 6ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:37:19 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:38:31 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:38:42 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/31" for 50.201.96.158 at 2018-08-19 20:38:57 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mTodo Load (0.7ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 31]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/todo/destroy/31" for 50.201.96.158 at 2018-08-19 20:38:58 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 31]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 31]]
+  [1m[35m (2.8ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:38:59 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:40:47 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:42:08 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 30ms (Views: 24.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:42:57 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/index.self-659adb0555a948f589a4467e6ecfb7009697cbf43455c351ea40b6608a9ef119.css?body=1" for 50.201.96.158 at 2018-08-19 20:42:58 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:43:24 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:45:26 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 28ms (Views: 22.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 20:45:33 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:45:35 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:47:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 33ms (Views: 28.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/index.self-e5a0f7cfda8186436f63e831d8b5e2af6b00e1bfaa912a37d999ffa826600982.css?body=1" for 50.201.96.158 at 2018-08-19 20:47:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/edit/todo" for 50.201.96.158 at 2018-08-19 20:48:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/edit/todo"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.6ms)
+
+
+Started GET "/todo/edit/3" for 50.201.96.158 at 2018-08-19 20:48:19 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTodo Load (0.9ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered todo/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:49:03 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:49:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:49:27 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:51:01 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/index.self-e57e6dc51304654682b2303d81035b0d8caa236882d74f19ccccf8f7023d37b8.css?body=1" for 50.201.96.158 at 2018-08-19 20:51:01 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:51:03 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:51:05 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:51:15 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:51:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:51:43 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.7ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/index.self-e4e5719cab21c0863eefcbb80a4990020908023b386e5f72425a459db47ac527.css?body=1" for 50.201.96.158 at 2018-08-19 20:51:43 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:52:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/index.self-f6af68b2b85ee425f99e0b1cf9a47ccd60738b1dd0c713b7ca157ffa2f77f99d.css?body=1" for 50.201.96.158 at 2018-08-19 20:52:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:52:19 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todo/create?description=sleep&pomodoro_estimate=39104982304" for 50.201.96.158 at 2018-08-19 20:52:52 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#create as HTML
+  Parameters: {"description"=>"sleep", "pomodoro_estimate"=>"39104982304"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "todos" ("description", "pomodoro_estimate", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "sleep"], ["pomodoro_estimate", "39104982304"], ["completed", "f"], ["created_at", "2018-08-19 20:52:52.205509"], ["updated_at", "2018-08-19 20:52:52.205509"]]
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/34
+Completed 302 Found in 12ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/todo/show/34" for 50.201.96.158 at 2018-08-19 20:52:52 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 34]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:52:55 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:53:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todo/create?description=eat&pomodoro_estimate=349082495885405983248" for 50.201.96.158 at 2018-08-19 20:53:26 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#create as HTML
+  Parameters: {"description"=>"eat", "pomodoro_estimate"=>"349082495885405983248"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "todos" ("description", "pomodoro_estimate", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "eat"], ["pomodoro_estimate", "349082495885405983248"], ["completed", "f"], ["created_at", "2018-08-19 20:53:26.476502"], ["updated_at", "2018-08-19 20:53:26.476502"]]
+  [1m[35m (2.8ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/35
+Completed 302 Found in 6ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/todo/show/35" for 50.201.96.158 at 2018-08-19 20:53:26 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:53:28 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:55:03 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/edit" for 50.201.96.158 at 2018-08-19 20:55:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/todo/edit"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.8ms)
+
+
+Started GET "/todo/edit/3" for 50.201.96.158 at 2018-08-19 20:55:10 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered todo/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:55:36 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 20:56:32 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todo/create?description=phone&pomodoro_estimate=310493" for 50.201.96.158 at 2018-08-19 20:56:48 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#create as HTML
+  Parameters: {"description"=>"phone", "pomodoro_estimate"=>"310493"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "todos" ("description", "pomodoro_estimate", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "phone"], ["pomodoro_estimate", "310493"], ["completed", "f"], ["created_at", "2018-08-19 20:56:48.818448"], ["updated_at", "2018-08-19 20:56:48.818448"]]
+  [1m[35m (3.1ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/36
+Completed 302 Found in 7ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/todo/show/36" for 50.201.96.158 at 2018-08-19 20:56:48 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:56:52 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/9" for 50.201.96.158 at 2018-08-19 20:57:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered todo/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 20:57:35 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 21:02:54 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todo/edit/3" for 50.201.96.158 at 2018-08-19 21:02:58 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:04:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.7ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 21:04:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:04:28 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:04:30 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:06:21 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/edit/10" for 50.201.96.158 at 2018-08-19 21:06:22 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:06:59 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 21:07:03 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:07:17 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:07:19 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.5ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:08:29 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:08:51 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:10:33 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-ef24f6538821040ad04fa61eefd8a9019f5507de59743327b5b464dddecf5da7.css?body=1" for 50.201.96.158 at 2018-08-19 21:10:33 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:11:02 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.8ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:11:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:12:21 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-4580b44f3d3ca405daf27df00eddf17ef03cc89cbc68fa3809954b300f144317.css?body=1" for 50.201.96.158 at 2018-08-19 21:12:21 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:12:51 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:13:31 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:13:42 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-b6c45b416fee96f27d9ebb9249b1d03d1a6d667a90ce947ec13f3004342ef304.css?body=1" for 50.201.96.158 at 2018-08-19 21:13:42 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:16:08 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.6ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/show.self-21419d48e303493f4246d054f6d27d99de0badd0c53610c33015d1cc310d1e00.css?body=1" for 50.201.96.158 at 2018-08-19 21:16:08 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:16:40 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-ef0d304743fec08307daed4f051862b3d3415eecaa540cfc355a0fe491567630.css?body=1" for 50.201.96.158 at 2018-08-19 21:16:40 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:19:40 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 19.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:20:29 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.2ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 32.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/show.self-d3b7772e708ff6364d4f5f7ad18c759ebf3a9760667f30c0af7c190a25495d8b.css?body=1" for 50.201.96.158 at 2018-08-19 21:20:29 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:21:49 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/index.self-847587305c86bfa63418d5b3d221d2795f2569d6cc800db6f377c610f90eebe6.css?body=1" for 50.201.96.158 at 2018-08-19 21:21:49 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:21:51 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:22:05 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/show.self-317f798f2577f76b01a491258f1eb9a119922c545c24d78d7ccd0a4d24769bae.css?body=1" for 50.201.96.158 at 2018-08-19 21:22:05 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:22:30 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:22:34 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/edit/10" for 50.201.96.158 at 2018-08-19 21:22:36 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/edit/10?description=make+screen+sizer+for+each+box+of+items&pomodoro_estimate=3" for 50.201.96.158 at 2018-08-19 21:22:52 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"description"=>"make screen sizer for each box of items", "pomodoro_estimate"=>"3", "id"=>"10"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/edit/10?description=make+screen+sizer+for+each+box+of+items&pomodoro_estimate=3" for 50.201.96.158 at 2018-08-19 21:25:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"description"=>"make screen sizer for each box of items", "pomodoro_estimate"=>"3", "id"=>"10"}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/update/10?description=make+screen+sizer+for+each+box+of+items&pomodoro_estimate=4" for 50.201.96.158 at 2018-08-19 21:25:28 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#update as HTML
+  Parameters: {"description"=>"make screen sizer for each box of items", "pomodoro_estimate"=>"4", "id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "pomodoro_estimate" = $1, "completed" = $2, "updated_at" = $3 WHERE "todos"."id" = $4  [["pomodoro_estimate", "4"], ["completed", "f"], ["updated_at", "2018-08-19 21:25:28.914825"], ["id", 10]]
+  [1m[36m (3.1ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/10
+Completed 302 Found in 11ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:25:28 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:26:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-962bf88a80be3246dd3ad1dc948f3639104462c9aa78621a81e7bb0741f3e8eb.css?body=1" for 50.201.96.158 at 2018-08-19 21:26:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:26:37 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-5b6caca76ee01d714bcef4450fa01df132ab55aa5cbd1b3ac142ad2362eb8dd8.css?body=1" for 50.201.96.158 at 2018-08-19 21:26:37 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:27:08 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-d2c22caef07c833cff9e65f8e557713f0de1deff4bda29a670d0040885ecab06.css?body=1" for 50.201.96.158 at 2018-08-19 21:27:08 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/edit/10" for 50.201.96.158 at 2018-08-19 21:28:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/edit/10" for 50.201.96.158 at 2018-08-19 21:30:01 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-4f2f7caf9d6975acd05cca0edee378291850145199abae0451a1ed6d7283ebb2.css?body=1" for 50.201.96.158 at 2018-08-19 21:30:01 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/edit/10" for 50.201.96.158 at 2018-08-19 21:30:20 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/show.self-a244e4b089bb5467ecf8e345096b53e9b65c55237706d46a984a24b0a9e63ab8.css?body=1" for 50.201.96.158 at 2018-08-19 21:30:21 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:30:26 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 21:30:29 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todo/create?description=memes&pomodoro_estimate=8" for 50.201.96.158 at 2018-08-19 21:30:39 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#create as HTML
+  Parameters: {"description"=>"memes", "pomodoro_estimate"=>"8"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "todos" ("description", "pomodoro_estimate", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["description", "memes"], ["pomodoro_estimate", "8"], ["completed", "f"], ["created_at", "2018-08-19 21:30:39.838477"], ["updated_at", "2018-08-19 21:30:39.838477"]]
+  [1m[35m (3.0ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/37
+Completed 302 Found in 7ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/todo/show/37" for 50.201.96.158 at 2018-08-19 21:30:40 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:31:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/show.self-640fe5cf01003aca28dbf1db9486a610a0d8415075cf7ef687f521053aa81b21.css?body=1" for 50.201.96.158 at 2018-08-19 21:31:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 21:31:16 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todo/create?description=dasljddjs&pomodoro_estimate=8" for 50.201.96.158 at 2018-08-19 21:31:22 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#create as HTML
+  Parameters: {"description"=>"dasljddjs", "pomodoro_estimate"=>"8"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "todos" ("description", "pomodoro_estimate", "completed", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["description", "dasljddjs"], ["pomodoro_estimate", "8"], ["completed", "f"], ["created_at", "2018-08-19 21:31:22.713744"], ["updated_at", "2018-08-19 21:31:22.713744"]]
+  [1m[36m (3.5ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/38
+Completed 302 Found in 7ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/todo/show/38" for 50.201.96.158 at 2018-08-19 21:31:22 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 38]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/edit/38" for 50.201.96.158 at 2018-08-19 21:31:26 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  Rendered todo/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/update/38?description=hi&pomodoro_estimate=8" for 50.201.96.158 at 2018-08-19 21:31:31 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#update as HTML
+  Parameters: {"description"=>"hi", "pomodoro_estimate"=>"8", "id"=>"38"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 38]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "todos" SET "description" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["description", "hi"], ["updated_at", "2018-08-19 21:31:31.780778"], ["id", 38]]
+  [1m[36m (3.2ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/38
+Completed 302 Found in 8ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/todo/show/38" for 50.201.96.158 at 2018-08-19 21:31:31 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 38]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 114ms (Views: 112.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/edit/38" for 50.201.96.158 at 2018-08-19 21:31:37 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  Rendered todo/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/update/38?description=hi&pomodoro_estimate=11" for 50.201.96.158 at 2018-08-19 21:31:41 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#update as HTML
+  Parameters: {"description"=>"hi", "pomodoro_estimate"=>"11", "id"=>"38"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 38]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "todos" SET "pomodoro_estimate" = $1, "updated_at" = $2 WHERE "todos"."id" = $3  [["pomodoro_estimate", "11"], ["updated_at", "2018-08-19 21:31:41.035027"], ["id", 38]]
+  [1m[36m (3.5ms)[0m  [1mCOMMIT[0m
+Redirected to https://todo-app-backend-itzemily.c9users.io/todo/show/38
+Completed 302 Found in 9ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/todo/show/38" for 50.201.96.158 at 2018-08-19 21:31:41 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mTodo Load (41.7ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 38]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 80ms (Views: 36.4ms | ActiveRecord: 41.7ms)
+
+
+Started GET "/todo/destroy/38" for 50.201.96.158 at 2018-08-19 21:32:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#destroy as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "todos" WHERE "todos"."id" = $1[0m  [["id", 38]]
+  [1m[35m (3.3ms)[0m  COMMIT
+Redirected to https://todo-app-backend-itzemily.c9users.io/todos
+Completed 302 Found in 7ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:32:13 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:32:35 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-851be4e5a97ec43c47348a6d50ef2fffb3ea387301572cbe98d93ff145c30401.css?body=1" for 50.201.96.158 at 2018-08-19 21:32:36 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/37" for 50.201.96.158 at 2018-08-19 21:32:37 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todo/edit/37" for 50.201.96.158 at 2018-08-19 21:32:38 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"37"}
+  [1m[35mTodo Load (0.3ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 37]]
+  Rendered todo/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:32:41 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:32:42 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:32:57 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/show.self-afc840a6279786dc68d50b0f630f89d849eebe3cedbc00254e894f1e40496212.css?body=1" for 50.201.96.158 at 2018-08-19 21:32:57 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:33:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-40610ac1ccb458b4583016c5013c44feffe189a44ffa0448f1e572d12b92ce0a.css?body=1" for 50.201.96.158 at 2018-08-19 21:33:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:33:47 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/show.self-29380644d1b007bea02071749457a173f4d06c49ff3d7e9ec56c04d98cb499de.css?body=1" for 50.201.96.158 at 2018-08-19 21:33:47 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:33:54 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.5ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/show.self-86f6d34ff893d658eeb55fa2385ccdd3756229eca6f83754475b9f497891f363.css?body=1" for 50.201.96.158 at 2018-08-19 21:33:55 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:34:18 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/show.self-5c8e249221bab8a4160d83a078ae1eace961ac18d94c1d4e6498c26e795361de.css?body=1" for 50.201.96.158 at 2018-08-19 21:34:18 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:34:35 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-c7fa37cc7f54681fc75566d7cc0a8ebbff2ce9caaaa354039854838913658a30.css?body=1" for 50.201.96.158 at 2018-08-19 21:34:35 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:35:04 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-2c861c262cb1f50d378e01e29f79f64cd72d83111b4800a12c8804d43508ef5a.css?body=1" for 50.201.96.158 at 2018-08-19 21:35:04 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:35:29 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-4798ba1bd5d3ebef501b025365dcb4b4f98b235bb401cada91c24df45e2e48ee.css?body=1" for 50.201.96.158 at 2018-08-19 21:35:29 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/edit/10" for 50.201.96.158 at 2018-08-19 21:37:04 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/show.self-b62464d74749887652fd2d1ec7ca473522050023d66ac79e147e231db1f22aa2.css?body=1" for 50.201.96.158 at 2018-08-19 21:37:04 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:37:38 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-16505c112a37c729e46ac7c4c430517b1b71f4af07bba5ec52b7f50d35f21aa5.css?body=1" for 50.201.96.158 at 2018-08-19 21:37:38 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todo/show/10" for 50.201.96.158 at 2018-08-19 21:38:14 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/show.self-32eed9447ddd3f8759c74293be5ae40eb73608e06f9eb582d19a405a037ce505.css?body=1" for 50.201.96.158 at 2018-08-19 21:38:15 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:38:49 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 21:39:04 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:39:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/8" for 50.201.96.158 at 2018-08-19 21:39:07 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 8]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/edit/8" for 50.201.96.158 at 2018-08-19 21:39:11 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTodo Load (0.3ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  Rendered todo/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:39:20 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/new" for 50.201.96.158 at 2018-08-19 21:40:49 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#new as HTML
+  Rendered todo/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:40:51 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/8" for 50.201.96.158 at 2018-08-19 21:40:52 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 8]]
+  Rendered todo/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todos" for 50.201.96.158 at 2018-08-19 21:40:54 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT "todos".* FROM "todos"[0m
+  Rendered todo/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 21:41:27 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 21:42:29 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 21:42:45 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTodo Load (0.6ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 21:42:59 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 21:43:06 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTodo Load (0.4ms)[0m  SELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/todo/show/3" for 50.201.96.158 at 2018-08-19 21:43:20 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.4ms)[0m  [1mSELECT  "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered todo/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 50.201.96.158 at 2018-08-19 21:44:59 +0000
+Cannot render console from 50.201.96.158! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TodoController#index as HTML
+  [1m[35mTodo Load (0.6ms)[0m  SELECT "todos".* FROM "todos"
+  Rendered todo/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 32ms (Views: 25.5ms | ActiveRecord: 3.5ms)

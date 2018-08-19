@@ -1,0 +1,16 @@
+<div style="text-align: center">
+    <h1 class="header">Edit Todo</h1>
+    <form action="/todo/update/<%=@t.id%>">
+        <div style="display: inline-block; text-align: left">
+            <p>Text</p>
+            <input type="text" name="description" value="<%=@t.description%>" id="new-todo-description">
+            <p>Pomodoro Estimate</p>
+            <input type="number" name="pomodoro_estimate" value="<%=@t.pomodoro_estimate%>" id="new-pomodoro-estimate" type="number">
+        </div>
+        <br></br>
+            <button id="back-button" style="margin-right: 10px">
+                <a href="/todos" style="text-decoration: none; color: #ffffff">back</a>
+            </button>
+            <button id="update-button" style="margin-left: 10px">update</button>
+    </form>
+</div>

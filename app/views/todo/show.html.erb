@@ -1,6 +1,5 @@
 <div style="text-align: center">
     <h1>To-Do List</h1>
-    <h2 id="todo_num">Todo #<%=@t.id%>:</h2>
     <h2>
         <strong>
             <%=@t.description%>
@@ -10,13 +9,19 @@
         <span id="pomodoro-estimate"><%=@t.pomodoro_estimate%> pomoderos</span>
     </p>
     <div style="display: inline-block; text-align: left;">
-        <p>
+        <h2>
             <input type="checkbox">
-            make it make sense and have it ready
-        </p>
+            DONE
+        </h2>
     </div>
     </br>
-    <button><a href="/todos">back</a></button>
-    <button><a href="">edit</a></button>
-    <button><a href="">delete</a></button>
+    <button id="back-one-button">
+        <a href="/todos" style="text-decoration: none; color: #ffffff">back</a>
+    </button>
+    <button id="edit-button">
+        <a href="/todo/edit/<%=@t.id%>" style="text-decoration: none; color: #ffffff">edit</a>
+    </button>
+    <button id="delete-one-button">
+        <a href="/todo/destroy/<%=@t.id%>" style="text-decoration: none; color: #ffffff">delete</a>
+    </button>
 </div>

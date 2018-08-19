@@ -1,11 +1,7 @@
 h1 {
     color: #b3b3ff;
     font-family: Georgia;
-}
-
-#todo_num {
-    color: #B0ADAC;
-}
+}    
 
 #pomodoro-estimate {
     font-weight: bold;
@@ -14,4 +10,44 @@ h1 {
     border-radius: 50px;
     font-size: 14px;
     padding: 5px 10px 5px 10px;
+}
+
+#delete-one-button {
+    background-color: #FF613F;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 23px;
+    font-family: monospace;
+    margin-left: 10px;
+}
+
+#back-one-button {
+    background-color: #ACAC9B;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 23px;
+    font-family: monospace;
+    margin-right: 10px;
+}
+
+#edit-button {
+    background-color: #755893;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 23px;
+    font-family: monospace;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#update-button {
+    background-color: #F8F270;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    font-family: monospace;
 }

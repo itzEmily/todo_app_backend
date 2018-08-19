@@ -10,7 +10,7 @@
             <tr>
                 <td>
                     <input type="checkbox">
-                    <a href="todo/show/1">
+                    <a href="todo/show/<%=todo.id%>">
                         <%=todo.description%>
                     </a>
                 </td>
@@ -18,6 +18,11 @@
                     <span class="pomodoro-estimate">
                         <%=todo.pomodoro_estimate%> pomodoro
                     </span>
+                </td>
+                <td>
+                    <button id="delete-button">
+                        <a href="/todo/destroy/<%=todo.id%>" style="text-decoration: none; color: #ffffff">delete</a>
+                    </button>
                 </td>
             </tr>
             <% end %>
