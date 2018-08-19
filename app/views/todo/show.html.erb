@@ -1,8 +1,8 @@
 <h1>to-do list</h1>
-<h2 id="todo_num">Todo #<%=params[:id]%>:</h2>
+<h2 id="todo_num">Todo #<%=@t.id%>:</h2>
 <h2>
     <strong>
-        <%=@todo_description%>
+        <%=@t.description%>
     </strong>
 </h2>
 <p>
@@ -10,7 +10,7 @@
         make it make sense and have it ready
 </p>
 <p>
-    <span id="pomodoro-estimate"><%=@todo_pomodoro_estimate%> pomoderos</span>
+    <span id="pomodoro-estimate"><%=@t.pomodoro_estimate%> pomoderos</span>
 </p>
 <button><a href="/todos">go back</a></button>
 <button><a href="">edit</a></button>
